@@ -1,0 +1,1 @@
+export type TABS = "Long_Break" | "Pomodoro" | "Short_Break"

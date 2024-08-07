@@ -1,0 +1,10 @@
+export const ZERO = 0
+export const STOP = "STOP"
+export const START = "START"
+export const TOTAL_SECONDS = 60
+export const TOTAL_MINUTES = 25
+export const POMODOR = "Pomodoro"
+export const SHORT_BREAK_TIME = 5
+export const TITLE_APP = "Pomodoro"
+export const LONG_BREAK = "Long Break"
+export const SHORT_BREAK = "Short Break"
