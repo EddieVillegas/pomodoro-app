@@ -1,22 +1,9 @@
 name: "Test"
 on: ["push"]
 jobs:
-  test1:
-    name: Test 1
+  test:
+    name: Test
     runs-on: ubuntu-latest
     steps:
-      - name: step one
-        uses: actions/checkout@v2
-      - name: step two
-        run: env | sort
-      - name: React Project Checker
-        uses: VictorDanilov/react-project-checker-action@v0.0.1-alpha
-  test2:
-    name: Test 2
-    runs-on: windows-latest
-    steps:
-      - name: step one
-        uses: actions/checkout@v2
-      - name: step two
-        run: "  Get-ChildItem Env: | Sort-Object Name"
-          
+      - name: Run tests cases
+        run: npm run test
