@@ -22,3 +22,5 @@ jobs:
         run: npm run test
       - name: Run lint
         run: npm run lint
+      - name: JUNIT Test Report Tool
+        uses: JohnMeyerhoff/JunitAnnotations@v1.2.0
